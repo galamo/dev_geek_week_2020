@@ -2,7 +2,7 @@
 
 ## Tasks
 
-## prerequisite
+## prerequisites
 
 - run the following command line in VScode Terminal: node -v
 - create folder + index.js file inside
@@ -55,6 +55,29 @@ Create Your Own Callback function, after 4 sec operation will return the followi
 }
 ```
 
-### Task 1:
+### Task 2:
 
-Create your Own API Using express
+Create Promise that return after 2 sec the relevant cars in your budget - try to use async await to invoke
+
+### Task 3:
+
+Create new API that listen to port 3200
+
+`js npm install express`
+`js npm install @types/express --save-dev`
+`js npm i tsc -g`
+`js npm i dotenv`
+`js npm i @hapi/joi`
+`js npm i axios`
+
+### Task 4:
+
+Create the following entry point
+GET /cars
+GET /cars/manufacturer
+return all the cars under the relevant manufacturer
+
+### Task 5
+
+`js npx create-react-app cars-app`
+`js npm start`
