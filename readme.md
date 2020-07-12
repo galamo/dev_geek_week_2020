@@ -64,10 +64,15 @@ Create Promise that return after 2 sec the relevant cars in your budget - try to
 Create new API that listen to port 3200
 
 `npm install express`
+
 `npm install @types/express --save-dev`
+
 `npm i tsc -g`
+
 `npm i dotenv`
+
 `npm i @hapi/joi`
+
 `npm i axios`
 
 ### Task 4:
