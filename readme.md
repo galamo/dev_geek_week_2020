@@ -86,3 +86,11 @@ return all the cars under the relevant manufacturer
 
 `npx create-react-app cars-app`
 `npm start`
+
+#### create Header component
+
+#### render the header component for all the following strings:
+
+- Main Page
+- Cars Page
+- Login
