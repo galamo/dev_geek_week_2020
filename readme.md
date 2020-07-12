@@ -75,6 +75,12 @@ Create new API that listen to port 3500
 
 - `npm i axios`
 
+- `npm i cors`
+
+- `npm i body-parser`
+
+* you can install all the modules in one line. npm i <p1> <p2> etc...
+
 ### Task 4:
 
 Create the following entry point
