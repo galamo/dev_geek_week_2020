@@ -5,15 +5,15 @@
 ## prerequisites
 
 - run the following command line in VScode Terminal: node -v
-- create folder + index.js file inside
-- put the following line inside the file `js console.log("script is running")`
-- run `js node index.js command`
+- create folder + index. file inside
+- put the following line inside the file `console.log("script is running")`
+- run `node index. command`
 
 ### Task 1:
 
 Create Your Own Callback function, after 4 sec operation will return the following payload to the relevant function:
 
-```json
+```on
 {
   "data": [
     {
@@ -63,12 +63,12 @@ Create Promise that return after 2 sec the relevant cars in your budget - try to
 
 Create new API that listen to port 3200
 
-`js npm install express`
-`js npm install @types/express --save-dev`
-`js npm i tsc -g`
-`js npm i dotenv`
-`js npm i @hapi/joi`
-`js npm i axios`
+`npm install express`
+`npm install @types/express --save-dev`
+`npm i tsc -g`
+`npm i dotenv`
+`npm i @hapi/joi`
+`npm i axios`
 
 ### Task 4:
 
@@ -79,5 +79,5 @@ return all the cars under the relevant manufacturer
 
 ### Task 5
 
-`js npx create-react-app cars-app`
-`js npm start`
+`npx create-react-app cars-app`
+`npm start`
