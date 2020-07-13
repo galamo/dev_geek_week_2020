@@ -41,11 +41,12 @@ function getCarsData() {
     return cars;
 }
 
-function getCarsFromServer(param) {
+function getCarsFromServer(budget) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
-            if (param) reject("missing data");
-            resolve(getCarsData())
+            if (!budget) reject("missing budget");
+            const cars = getCarsData();
+            resolve(cars.filter(car => car.price <= budget))
         }, 3000);
     })
 }
@@ -54,7 +55,7 @@ function getCarsFromServer(param) {
 async function getCarsService() {
     try {
         console.log("getCarsService start")
-        const result = await getCarsFromServer();
+        const result = await getCarsFromServer(53000);
         console.log(result)
         console.log("this is blocked")
     } catch (err) {
@@ -63,8 +64,7 @@ async function getCarsService() {
 }
 
 getCarsService();
-getCarsService();
-getCarsService();
+
 
 
 console.log("this is not blocked")
