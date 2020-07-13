@@ -90,6 +90,8 @@ GET /cars
 GET /cars/manufacturer
 return all the cars under the relevant manufacturer
 
+Add price validation fro query param
+
 ### Task 5
 
 `npx create-react-app cars-app`

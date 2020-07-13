@@ -1,0 +1,22 @@
+{
+    "name": "api-ts",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile": "tsc --watch",
+        "start-dev": "nodemon dist/app.js",
+        "_next_after_break_start": "npm run compile && npm run start-dev"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@hapi/joi": "^17.1.1",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "typescript": "^3.9.6"
+    },
+    "devDependencies": {
+        "@types/express": "^4.17.7"
+    }
+}
