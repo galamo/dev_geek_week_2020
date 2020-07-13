@@ -101,6 +101,12 @@ Add price validation fro query param
 
 #### render the header component for all the following strings:
 
-- Main Page
-- Cars Page
-- Login
+## React Client
+`npm install bootstrap --save`
+
+## react task
+- Create header component
+- recives: 
+- string - header text
+- class - class name
+- default params text/class
